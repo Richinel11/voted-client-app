@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/checking.css">
+    <title>Voted app - Verification</title>
+</head>
+
+<body>
+    <script type="module" src="../js/checking.js"></script>
+    <main>
+        <div class="title"></div>
+        <div class="form">
+            <div class="input">
+                <p>First Name</p>
+                <input type="text">
+            </div>
+            <div class="input">
+                <p>Last Name</p>
+                <input type="text">
+            </div>
+            <div class="choice">
+                <p>What Best Describes What you do ?</p>
+                <div class="bloc">
+                    <div class="radio">
+                        <input type="radio" id="rad1" name="status" checked>
+                        <label for="rad1">Student</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="rad2" name="status">
+                        <label for="rad2">Teacher</label>
+                    </div>
+                </div>
+            </div>
+            <div class="input">
+                <p>Matricule</p>
+                <input type="text">
+            </div>
+            <div class="optional">
+                <div class="select">
+                    <p>Sector - Axis</p>
+                    <select name="Sector" class="sl" id="sect1">
+                        <option value="TCO" selected>TCO</option>
+                        <option value="GLO">GIT - GLO</option>
+                    </select>
+                    <svg width="20" height="21" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.439 7.939L12.5 12.879L7.56096 7.939L5.43896 10.061L12.5 17.121L19.561 10.061L17.439 7.939Z"
+                            fill="black" fill-opacity="0.5" />
+                    </svg>
+                </div>
+                <div class="select">
+                    <p>Level</p>
+                    <select name="Sector" class="sl" id="sect2">
+                        <option value="1" selected>1</option>
+                        <option value="2" >2</option>
+                        <option value="3" >3</option>
+                        <option value="4" >4</option>
+                        <option value="5" >5</option>
+                    </select>
+                    <svg width="20" height="21" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.439 7.939L12.5 12.879L7.56096 7.939L5.43896 10.061L12.5 17.121L19.561 10.061L17.439 7.939Z"
+                            fill="black" fill-opacity="0.5" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="submit">
+            <button>Continue</button>
+        </div>
+    </main>
+</body>
+
+</html>
